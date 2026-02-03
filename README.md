@@ -15,12 +15,17 @@ Specializing in **AWS & Cloudflare security**, serverless architectures, and pro
 - Reduced security tooling costs by **~$11,000/year**
 
 ## 🚀 Featured Security Projects
-- 🔐 **Lakewest1/PCI-Compliant-Cloud-Security-Architecture-project (Lakewest1/PCI-Compliant-Cloud-Security-Architecture-project)**
-- 💳 **[Secure Serverless Payment Platform (Production, real payments)](https://github.com/Lakewest1/secure-serverless-payment-platform)**
-- 🤖 **[AWS Security Automation & CIS Audit Tool (Python, boto3)]( Lakewest1/AWS-Security-Automation)**
-- 🏦 **[Banking Systems Threat Modeling (STRIDE, Microservices)]Internship under supervision of Senior cloud security engineer at Nation wide Building society**
-- 🕵️ **[SOC & Security Research Projects (Forensics, DDoS, MITRE ATT&CK)]( Network-Forensic-Project)**
 
+- 🔐 **[PCI-Compliant Cloud Security Architecture (AWS + Cloudflare)](https://github.com/Lakewest1/PCI-Compliant-Cloud-Security-Architecture-project)**  
+  Enterprise-grade PCI DSS cloud security design with IAM, encryption, Zero Trust, and threat modeling.
+- 💳 **[Secure Serverless Payment Platform (Production, Real Payments)](https://github.com/Lakewest1/multi-cloud-secure-donation-platform)**  
+  Production cloud security implementation securing real financial transactions with zero incidents.
+- 🤖 **[AWS Security Automation & CIS Audit Tool (Python, boto3)](https://github.com/Lakewest1/AWS-Security-Automation)**  
+  Automated AWS security assessments aligned with CIS benchmarks using Python and boto3.
+- 🏦 **[Banking Systems Threat Modeling (STRIDE, Microservices)]**  
+  Threat modeling of financial microservices architecture under supervision of a Senior Cloud Security Engineer (Nationwide Building Society).
+- 🕵️ **[SOC & Security Research Projects (Forensics, DDoS, MITRE ATT&CK)](https://github.com/Lakewest1/Network-Forensic-Project)**  
+  Hands-on SOC investigations including PCAP forensics, DDoS analysis, phishing detection, and ATT&CK mapping.
 
 🌱 Currently focused on:
 - Advanced **Cloud Security Engineering**
