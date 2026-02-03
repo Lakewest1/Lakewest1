@@ -15,7 +15,7 @@ Specializing in **AWS & Cloudflare security**, serverless architectures, and pro
 - Reduced security tooling costs by **~$11,000/year**
 
 ## 🚀 Featured Security Projects
-- 🔐 **[PCI-Compliant Cloud Security Architecture (AWS + Cloudflare)](Lakewest1/PCI-Compliant-Cloud-Security-Architecture-project)**
+- 🔐 **(Lakewest1/PCI-Compliant-Cloud-Security-Architecture-project)Lakewest1/PCI-Compliant-Cloud-Security-Architecture-project**
 - 💳 **[Secure Serverless Payment Platform (Production, real payments)](https://github.com/Lakewest1/secure-serverless-payment-platform)**
 - 🤖 **[AWS Security Automation & CIS Audit Tool (Python, boto3)]( Lakewest1/AWS-Security-Automation)**
 - 🏦 **[Banking Systems Threat Modeling (STRIDE, Microservices)]Internship under supervision of Senior cloud security engineer at Nation wide Building society**
