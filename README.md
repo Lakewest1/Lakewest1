@@ -23,7 +23,7 @@ Specializing in **AWS & Cloudflare security**, serverless architectures, and pro
 - 🤖 **[AWS Security Automation & CIS Audit Tool (Python, boto3)](https://github.com/Lakewest1/AWS-Security-Automation)**  
   Automated AWS security assessments aligned with CIS benchmarks using Python and boto3.
 - 🏦 **[Banking Systems Threat Modeling (STRIDE, Microservices)]**  
-  Threat modeling of financial microservices architecture under supervision of a Senior Cloud Security Engineer (Nationwide Building Society).
+  Threat modeling of financial microservices architecture under supervision of a Senior Cloud Security Engineer (Nationwide Building Societt,London).
 - 🕵️ **[SOC & Security Research Projects (Forensics, DDoS, MITRE ATT&CK)](https://github.com/Lakewest1/Network-Forensic-Project)**  
   Hands-on SOC investigations including PCAP forensics, DDoS analysis, phishing detection, and ATT&CK mapping.
 
