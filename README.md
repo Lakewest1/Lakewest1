@@ -85,7 +85,7 @@ Enterprise-grade cloud security design with:
 
 ---
 
-### 🕵️ [TorExfil SOC Investigation](https://github.com/Lakewest1/Network-Forensic-Project)
+### 🕵️ [TorExfil SOC Investigation](https://github.com/Lakewest1/TorExfil-SOC-Investigation))
 
 * Performed **threat detection & forensic analysis**
 * Investigated:
