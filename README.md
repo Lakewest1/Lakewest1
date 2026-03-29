@@ -1,6 +1,6 @@
 👋 Hi, I am **Musa Olalekan Ismail** (aka **Sir Lakewest**)
 
-🔐 **Cloud Security Engineer / DevSecOps Engineer / SOC **
+🔐 **Cloud Security Engineer / DevSecOps Engineer / SOC / Security Engineer**
 Specializing in **AWS, Azure & Cloudflare security**, **Kubernetes**, and building **secure, production-grade cloud-native systems** with a strong DevSecOps mindset.
 
 ---
