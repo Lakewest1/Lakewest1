@@ -29,7 +29,7 @@ Specializing in **AWS, Azure & Cloudflare security**, **Kubernetes**, and buildi
 
 ## 🔥 Featured Security Projects
 
-### ☸️ Secure Kubernetes DevSecOps Deployment 
+### ☸️ [Secure Kubernetes DevSecOps Deployment](https://github.com/Lakewest1/Secure-Kubernetes-Deployment) 
 
 * Built and deployed a **secure containerized application on Kubernetes (Minikube)**
 * Integrated **image scanning with Trivy → remediation → validation with Snyk**
@@ -74,7 +74,7 @@ Enterprise-grade cloud security design with:
 
 ---
 
-### 🧠 Cross-Cloud SOC Auto-Remediation (Azure Sentinel + AWS)
+### 🧠 [Cross-Cloud SOC Auto-Remediation (Azure Sentinel + AWS)](https://github.com/Lakewest1/Cross-Cloud-SOC-Automation-Remediation-v2)
 
 * Built detection & response system integrating:
 
@@ -125,6 +125,7 @@ Enterprise-grade cloud security design with:
 * Cloud Security / DevSecOps roles (Remote/Global)
 * SOC / Security Engineering opportunities
 * Security architecture reviews & collaborations
+* Cloud Analyst / detection Engineering
 
 ---
 
