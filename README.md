@@ -99,7 +99,7 @@ Enterprise-grade cloud security design with:
 
 ## 🧠 My Engineering Approach
 
-> I don’t just deploy applications —
+> I don’t just deploy applications,
 > I **secure, validate, and continuously monitor them**.
 
 * Scan early (**Trivy**)
