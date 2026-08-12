@@ -1,9 +1,9 @@
 ````markdown
-### 👋 Musa Olalekan Ismail - Cloud Security & DevSecOps Engineer
+### 👋 Musa Olalekan Ismail — Cloud Security & DevSecOps Engineer
 
 # 🔐 Cloud Security Engineer | DevSecOps Engineer | Detection Engineer | SOC / Security Engineer
 
-I specialize in AWS, Azure, Cloudflare, Kubernetes security, IAM, threat detection, security automation, and secure cloud-native application development**.
+I specialize in AWS, Azure, Cloudflare, Kubernetes security, IAM, threat detection, security automation, and secure cloud-native application development.
 
 I build security into systems from design → development → CI/CD → deployment → detection → response, with a strong focus on practical security engineering and automation.
 
@@ -11,17 +11,17 @@ I build security into systems from design → development → CI/CD → deployme
 
 ## 🛡️ What I Do
 
-- Design and secure **cloud-native, containerized and serverless applications**
+- Design and secure **cloud-native, containerized, and serverless applications**
 - Implement **AWS and Azure security controls**
 - Design **IAM least-privilege architectures**
-- Secure Kubernetes workloads using **RBAC, Network Policies and SecurityContext**
+- Secure Kubernetes workloads using **RBAC, Network Policies, and SecurityContext**
 - Build **DevSecOps CI/CD security pipelines**
-- Perform **SAST, DAST, SCA and secret detection**
+- Perform **SAST, DAST, SCA, and secret detection**
 - Conduct **threat modeling using STRIDE**
 - Build **cloud threat detection and response automation**
 - Develop **MITRE ATT&CK-aligned detection logic**
 - Perform security investigations and incident response
-- Implement **Cloudflare WAF, DDoS protection, TLS and security headers**
+- Implement **Cloudflare WAF, DDoS protection, TLS, and security headers**
 - Design **compliance-aware architectures** aligned with PCI DSS and GDPR
 
 ---
@@ -65,11 +65,11 @@ Respond
 
 # 🔥 Featured Security Projects
 
-## 🧠 LOSAF - Lakewest Open Security Automation Framework
+## 🧠 LOSAF — Lakewest Open Security Automation Framework
 
 ### [LOSAF Multi-Cloud Detection Pipeline](https://github.com/Lakewest1/LOSAF-multi-cloud-detection-pipeline)
 
-An open-source **multi-cloud threat detection pipeline** designed to ingest security telemetry from AWS, Azure and Kubernetes, normalize events, map them to MITRE ATT&CK techniques, evaluate declarative detection rules and surface detections through a real-time dashboard.
+An open-source **multi-cloud threat detection pipeline** designed to ingest security telemetry from AWS, Azure, and Kubernetes, normalize events, map them to MITRE ATT&CK techniques, evaluate declarative detection rules, and surface detections through a real-time dashboard.
 
 ### Architecture
 
@@ -153,7 +153,7 @@ CONTAIN_ACTOR
 
 ### Current Security Scope
 
-The current implementation **computes and recommends response actions** but does not yet directly execute remediation against AWS IAM, Kubernetes or Microsoft Graph APIs.
+The current implementation **computes and recommends response actions** but does not yet directly execute remediation against AWS IAM, Kubernetes, or Microsoft Graph APIs.
 
 This separation provides a controlled architecture where detection logic can be validated before automated remediation is introduced.
 
@@ -349,7 +349,7 @@ Automated Response
 * Automated containment
 * SOC workflow automation
 
-Demonstrates the combination of **detection engineering, cloud security and automated response**.
+Demonstrates the combination of **detection engineering, cloud security, and automated response**.
 
 ---
 
@@ -357,7 +357,7 @@ Demonstrates the combination of **detection engineering, cloud security and auto
 
 ### [TorExfil SOC Investigation](https://github.com/Lakewest1/TorExfil-SOC-Investigation)
 
-End-to-end SOC investigation demonstrating threat detection, investigation and incident response.
+End-to-end SOC investigation demonstrating threat detection, investigation, and incident response.
 
 ### Investigated
 
@@ -380,11 +380,11 @@ End-to-end SOC investigation demonstrating threat detection, investigation and i
 * SecurityTrails
 * Censys
 
-Demonstrates practical **SOC investigation, threat intelligence and incident response** capabilities.
+Demonstrates practical **SOC investigation, threat intelligence, and incident response** capabilities.
 
 ---
 
-# 🔒 Rasoaf Travels & Tours - DevSecOps Security Implementation
+# 🔒 Rasoaf Travels & Tours — DevSecOps Security Implementation
 
 ### [Rasoaf DevSecOps Security Implementation](https://github.com/Lakewest1/Rasoaf-Devsecops-Security-Implementation)
 
@@ -441,12 +441,12 @@ GitHub Actions
 This project demonstrates practical **DevSecOps implementation in a production web application**.
 
 ---
----
+
 # 🏥 EVS Healthcare Secure Platform
 
 ### [EVS Healthcare Secure Platform](https://github.com/Lakewest1/evs-healthcare-secure-platform)
 
-A production healthcare recruitment platform designed and secured using cloud-native security and defense-in-depth principles.
+A production healthcare recruitment platform designed and secured using **cloud-native security and defense-in-depth principles**.
 
 The platform enables healthcare professionals to apply for opportunities, securely upload CVs, and communicate with recruiters while protecting application data through layered security controls.
 
@@ -456,7 +456,7 @@ The platform enables healthcare professionals to apply for opportunities, secure
 Users
   │
   ▼
-Cloudflare Edge
+Cloudflare Edge Security
   │
   ├── WAF
   ├── DDoS Protection
@@ -468,73 +468,114 @@ Cloudflare Edge
 Netlify
   │
   ├── React Application
-  └── Serverless Functions
+  │
+  └── Netlify Serverless Functions
           │
           ├── Input Validation
+          ├── Secure Form Processing
           ├── Secret Management
           │
           ├───────────────┐
           ▼               ▼
      Cloudinary         EmailJS
      CV Storage       Email Delivery
-Security Controls
-Cloudflare WAF
-DDoS Protection
-Bot Protection
-Rate Limiting
-HTTPS / TLS 1.2–1.3
-HSTS
-Content Security Policy (CSP)
-X-Frame-Options
-X-Content-Type-Options
-Permissions Policy
-Serverless security controls
-Environment-variable secret management
-Input validation
-Secure CV/file upload handling
-SPF, DKIM and DMARC
-Security Testing
+          │               │
+          ▼               ▼
+     Recruiter        Applicant
+     Workflow        Confirmation
+```
+
+### Security Controls
+
+#### Edge Security
+
+* Cloudflare WAF
+* DDoS Protection
+* Bot Protection
+* Rate Limiting
+
+#### Transport Security
+
+* HTTPS
+* TLS 1.2 / TLS 1.3
+* HSTS
+
+#### Application Security
+
+* Content Security Policy (CSP)
+* X-Frame-Options
+* X-Content-Type-Options
+* Permissions Policy
+* Input Validation
+
+#### Backend Security
+
+* Netlify Serverless Functions
+* Environment-variable secret management
+* Secure form processing
+* Serverless isolation
+
+#### File & Communication Security
+
+* Secure CV/file upload handling
+* Cloudinary secure CV storage
+* Email delivery through EmailJS
+* SPF
+* DKIM
+* DMARC
+
+### Security Testing
 
 The production platform was validated using:
 
-OWASP ZAP - vulnerability assessment
-SSL Labs - TLS configuration testing
-Mozilla Observatory — security-header assessment
-SecurityHeaders.com — HTTP security-header validation
-Technology
-React
-Vite
-JavaScript
-Node.js
-Netlify Functions
-Cloudflare
-Cloudinary
-EmailJS
-Engineering Focus
+| Tool                    | Purpose                         |
+| ----------------------- | ------------------------------- |
+| **OWASP ZAP**           | Vulnerability assessment        |
+| **SSL Labs**            | TLS configuration testing       |
+| **Mozilla Observatory** | Security-header assessment      |
+| **SecurityHeaders.com** | HTTP security-header validation |
+
+### Technology
+
+* React
+* Vite
+* JavaScript
+* Node.js
+* Netlify Functions
+* Cloudflare
+* Cloudinary
+* EmailJS
+* Git
+* GitHub
+* OWASP ZAP
+* SSL Labs
+
+### Engineering Focus
 
 This project demonstrates practical experience in:
 
-Cloud Security
-Application Security
-Serverless Security
-Secure File Uploads
-Web Security
-Security Headers
-Edge Security
-Production Deployment
-Defense-in-Depth
-Security Testing
+* Cloud Security
+* Application Security
+* Serverless Security
+* Secure File Uploads
+* Web Security
+* Security Headers
+* Edge Security
+* Production Deployment
+* Defense-in-Depth
+* Security Testing
 
-📂 Repository:
-https://github.com/Lakewest1/evs-healthcare-secure-platform
+📂 **Repository:**
+[https://github.com/Lakewest1/evs-healthcare-secure-platform](https://github.com/Lakewest1/evs-healthcare-secure-platform)
 
-🌐 Live Platform:
-https://www.evshealthcare.co.uk
+🌐 **Live Platform:**
+[https://www.evshealthcare.co.uk](https://www.evshealthcare.co.uk)
+
 ---
 
 # 🧠 My Engineering Approach
 
-> **I don't just deploy applications. I secure, validate, detect and continuously improve them.**
+> **I don't just deploy applications. I secure, validate, detect, and continuously improve them.**
 
 My security engineering approach follows:
 
@@ -666,7 +707,8 @@ I focus on building security into the system rather than treating security as a 
 
 # 📫 Contact
 
-📧 **Email:** [olamilake95@gmail.com](mailto:olamilake95@gmail.com)
+📧 **Email:**
+[olamilake95@gmail.com](mailto:olamilake95@gmail.com)
 
 🔗 **LinkedIn:**
 [https://www.linkedin.com/in/olalekan-musa-499b48280/](https://www.linkedin.com/in/olalekan-musa-499b48280/)
@@ -683,7 +725,7 @@ I focus on building security into the system rather than treating security as a 
 
 The projects I recommend reviewing first:
 
-1. 🧠 **[LOSAF - Multi-Cloud Detection Pipeline](https://github.com/Lakewest1/LOSAF-multi-cloud-detection-pipeline)**
+1. 🧠 **[LOSAF — Multi-Cloud Detection Pipeline](https://github.com/Lakewest1/LOSAF-multi-cloud-detection-pipeline)**
 2. 🚨 **[Cross-Cloud SOC Automation & Remediation](https://github.com/Lakewest1/Cross-Cloud-SOC-Automation-Remediation-v2)**
 3. ☸️ **[Secure Kubernetes DevSecOps Deployment](https://github.com/Lakewest1/Secure-Kubernetes-Deployment)**
 4. 🔐 **[PCI-Compliant Cloud Security Architecture](https://github.com/Lakewest1/PCI-Compliant-Cloud-Security-Architecture-project)**
@@ -698,4 +740,5 @@ I enjoy researching complex security problems, building practical security autom
 
 > **Build it. Secure it. Detect it. Automate it.**
 
-````
+```
+
