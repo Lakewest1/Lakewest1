@@ -1,142 +1,611 @@
-👋 Hi, I am **Musa Olalekan Ismail** (aka **Sir Lakewest**)
+````markdown
+# 👋 Musa Olalekan Ismail - Cloud Security & DevSecOps Engineer
 
-🔐 **Cloud Security Engineer / DevSecOps Engineer / SOC / Security Engineer**
-Specializing in **AWS, Azure & Cloudflare security**, **Kubernetes**, and building **secure, production-grade cloud-native systems** with a strong DevSecOps mindset.
+🔐 **Cloud Security Engineer | DevSecOps Engineer | Detection Engineer | SOC / Security Engineer**
+
+I specialize in **AWS, Azure, Cloudflare, Kubernetes security, IAM, threat detection, security automation, and secure cloud-native application development**.
+
+I build security into systems from **design → development → CI/CD → deployment → detection → response**, with a strong focus on practical security engineering and automation.
 
 ---
 
 ## 🛡️ What I Do
 
-* Design and secure **cloud-native, containerized & serverless applications**
-* Implement **Kubernetes security, IAM least privilege, Zero Trust architecture**
-* Perform **container/image security scanning (Trivy, Snyk) and remediation**
-* Build **DevSecOps pipelines** integrating security into CI/CD
-* Apply **threat modeling (STRIDE), SAST/DAST**, and incident response strategies
-* Design **compliance-aware architectures** (PCI DSS, GDPR)
+- Design and secure **cloud-native, containerized and serverless applications**
+- Implement **AWS and Azure security controls**
+- Design **IAM least-privilege architectures**
+- Secure Kubernetes workloads using **RBAC, Network Policies and SecurityContext**
+- Build **DevSecOps CI/CD security pipelines**
+- Perform **SAST, DAST, SCA and secret detection**
+- Conduct **threat modeling using STRIDE**
+- Build **cloud threat detection and response automation**
+- Develop **MITRE ATT&CK-aligned detection logic**
+- Perform security investigations and incident response
+- Implement **Cloudflare WAF, DDoS protection, TLS and security headers**
+- Design **compliance-aware architectures** aligned with PCI DSS and GDPR
 
 ---
 
-## 🚀 My Recent Impact
+# 🚀 Engineering Impact
 
-* Secured a **production-grade payment platform** handling real transactions
-* Achieved **0 security incidents**, **99.9% uptime**, and **1,200+ attacks blocked**
-* Reduced security tooling costs by **~$11,000/year**
-* Built a Complete **Cross-Cloud automation and Remediation** accross AWS + Azure and Reduced Mean Time to Respond (MTTR) from manual intervention to near real-time automated remediation
-* Implemented **end-to-end DevSecOps workflow**:
-  **Code → Build → Scan → Fix → Deploy → Monitor**
+Some of my security engineering work includes:
+
+- 🔐 Secured a **production-grade payment/donation platform** handling real transactions
+- 🛡️ Blocked **1,200+ attacks** through layered cloud security controls
+- ⚡ Achieved **99.9% uptime** in the production platform
+- 💰 Reduced security tooling costs by approximately **$11,000/year**
+- 🤖 Built **cross-cloud security detection and automated remediation**
+- ☁️ Integrated security workflows across **AWS + Azure**
+- 🚨 Built **multi-cloud threat detection pipelines** with MITRE ATT&CK mapping
+- 🔄 Implemented DevSecOps workflows following:
+
+```text
+Code
+ ↓
+Build
+ ↓
+Test
+ ↓
+SAST / SCA / Secret Scan
+ ↓
+DAST
+ ↓
+Security Gate
+ ↓
+Deploy
+ ↓
+Monitor
+ ↓
+Detect
+ ↓
+Respond
+````
 
 ---
 
-## 🔥 Featured Security Projects
+# 🔥 Featured Security Projects
 
-### ☸️ [Secure Kubernetes DevSecOps Deployment](https://github.com/Lakewest1/Secure-Kubernetes-Deployment) 
+## 🧠 LOSAF — Lakewest Open Security Automation Framework
 
-* Built and deployed a **secure containerized application on Kubernetes (Minikube)**
-* Integrated **image scanning with Trivy → remediation → validation with Snyk**
-* Implemented:
+### [LOSAF Multi-Cloud Detection Pipeline](https://github.com/Lakewest1/LOSAF-multi-cloud-detection-pipeline)
 
-  * **Network Policies (Zero Trust networking)**
-  * **RBAC (least privilege access control)**
-  * **SecurityContext (non-root, hardened containers)**
-* Demonstrates **real DevSecOps maturity (not just deployment, but secure deployment)**
+An open-source **multi-cloud threat detection pipeline** designed to ingest security telemetry from AWS, Azure and Kubernetes, normalize events, map them to MITRE ATT&CK techniques, evaluate declarative detection rules and surface detections through a real-time dashboard.
+
+### Architecture
+
+```text
+AWS CloudTrail
+       │
+Azure Entra ID
+       │
+Kubernetes Audit Logs
+       │
+       ▼
+┌─────────────────────┐
+│ Multi-Cloud         │
+│ Collectors          │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│ Event Normalization │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│ MITRE ATT&CK Mapper │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│ Detection Engine    │
+│ YAML Detection      │
+│ Rules               │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│ REST Detection API  │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│ Real-Time Dashboard │
+└─────────────────────┘
+```
+
+### Key Capabilities
+
+* Multi-cloud telemetry collection
+
+  * AWS CloudTrail
+  * Azure Entra ID
+  * Kubernetes audit logs
+* Common event normalization
+* MITRE ATT&CK technique and tactic mapping
+* Declarative YAML detection rules
+* Weighted detection conditions
+* Threat severity evaluation
+* Recommended response actions
+* Real-time detection dashboard
+* PostgreSQL/Supabase persistence
+* REST API for detection results
+* Cloud-native security architecture
+
+### Detection Engineering
+
+LOSAF evaluates normalized events against declarative detection rules and produces:
+
+* Detection severity
+* Matched conditions
+* Detection weight
+* MITRE ATT&CK context
+* Recommended response action
+* High-confidence response classification
+
+Example recommended actions include:
+
+```text
+TERMINATE_POD
+REVOKE_CREDENTIALS
+CONTAIN_ACTOR
+```
+
+### Current Security Scope
+
+The current implementation **computes and recommends response actions** but does not yet directly execute remediation against AWS IAM, Kubernetes or Microsoft Graph APIs.
+
+This separation provides a controlled architecture where detection logic can be validated before automated remediation is introduced.
+
+### Technology
+
+* TypeScript
+* Node.js
+* Express
+* React
+* Vite
+* PostgreSQL
+* Supabase
+* Prisma
+* AWS SDK
+* Azure Identity
+* Kubernetes Client
+* YAML detection rules
+* MITRE ATT&CK
+
+📂 **Repository:**
+[https://github.com/Lakewest1/LOSAF-multi-cloud-detection-pipeline](https://github.com/Lakewest1/LOSAF-multi-cloud-detection-pipeline)
+
+🎥 **Demo:**
+[https://youtu.be/jT9a2qFGDHg](https://youtu.be/jT9a2qFGDHg)
 
 ---
 
-### 🔐 [PCI-Compliant Cloud Security Architecture (AWS + Cloudflare)](https://github.com/Lakewest1/PCI-Compliant-Cloud-Security-Architecture-project)
+# ☸️ Secure Kubernetes DevSecOps Deployment
 
-Enterprise-grade cloud security design with:
+### [Secure Kubernetes Deployment](https://github.com/Lakewest1/Secure-Kubernetes-Deployment)
 
-* IAM least privilege
-* Encryption (KMS, TLS 1.3)
+Built and deployed a hardened containerized application on Kubernetes with security integrated throughout the development lifecycle.
+
+### Security Controls
+
+* Trivy container image scanning
+* Snyk vulnerability validation
+* Vulnerability remediation
+* Kubernetes RBAC
+* Network Policies
+* SecurityContext
+* Non-root containers
+* Container hardening
+* DevSecOps security workflow
+
+### Security Workflow
+
+```text
+Application
+     ↓
+Container Build
+     ↓
+Trivy Scan
+     ↓
+Vulnerability Remediation
+     ↓
+Snyk Validation
+     ↓
+Kubernetes Deployment
+     ↓
+RBAC + Network Policies
+     ↓
+Runtime Hardening
+```
+
+Demonstrates that Kubernetes security is not simply about deployment, but about **secure deployment and continuous validation**.
+
+---
+
+# 🔐 PCI-Compliant Cloud Security Architecture
+
+### [PCI-Compliant Cloud Security Architecture](https://github.com/Lakewest1/PCI-Compliant-Cloud-Security-Architecture-project)
+
+Enterprise-style cloud security architecture designed around protecting sensitive payment and personal data.
+
+### Security Controls
+
+* AWS IAM least privilege
+* AWS KMS encryption
+* TLS 1.3
+* mTLS
+* JWT authentication
+* Cloudflare WAF
 * Zero Trust architecture
-* STRIDE threat modeling
-  Aligned with **PCI DSS standards**
+* Threat modeling using STRIDE
+* Tokenization
+* Security monitoring
+* PCI DSS alignment
+
+The project demonstrates security architecture and defense-in-depth principles for cloud-based applications.
 
 ---
 
-### 💳 [Multi-Cloud Secure Donation Platform (Production)](https://github.com/Lakewest1/multi-cloud-secure-donation-platform)
+# 💳 Multi-Cloud Secure Donation Platform
 
-* Secured real-world financial transactions using:
+### [Multi-Cloud Secure Donation Platform](https://github.com/Lakewest1/multi-cloud-secure-donation-platform)
 
-  * AWS serverless (Lambda, API Gateway)
-  * Cloudflare WAF, Bot Protection, DDoS mitigation
-* Achieved **zero incidents in production**
-* Integrated **security into SDLC (DevSecOps)**
+Production-grade serverless payment/donation platform secured using AWS and Cloudflare security controls.
 
----
+### Architecture
 
-### 🤖 [AWS Security Automation & CIS Audit Tool](https://github.com/Lakewest1/AWS-Security-Automation)
+```text
+Users
+  │
+  ▼
+Cloudflare
+  │
+  ├── WAF
+  ├── DDoS Protection
+  ├── Bot Protection
+  └── TLS
+  │
+  ▼
+API Gateway
+  │
+  ▼
+AWS Lambda
+  │
+  ├── IAM
+  ├── KMS
+  └── Security Controls
+  │
+  ▼
+Payment Services
+```
 
-* Built Python-based automation using **boto3**
-* Audits AWS services against **CIS benchmarks**
-* Detects misconfigurations in IAM, S3, EC2, CloudTrail
-* Demonstrates **security automation & cloud governance**
+### Security Outcomes
 
----
-
-### 🧠 [Cross-Cloud SOC Auto-Remediation (Azure Sentinel + AWS)](https://github.com/Lakewest1/Cross-Cloud-SOC-Automation-Remediation-v2)
-
-* Built detection & response system integrating:
-
-  * Azure Sentinel (SIEM)
-  * AWS Lambda (auto-remediation)
-* Automatically responds to threats (e.g., privilege escalation)
-* Demonstrates **SOC + cloud automation synergy**
-
----
-
-### 🕵️ [TorExfil SOC Investigation](https://github.com/Lakewest1/TorExfil-SOC-Investigation))
-
-* Performed **threat detection & forensic analysis**
-* Investigated:
-
-  * Tor-based exfiltration
-  * DDoS patterns
-  * Phishing artifacts
-* Mapped findings to **MITRE ATT&CK framework**
-
----
-
-## 🧠 My Engineering Approach
-
-> I don’t just deploy applications,
-> I **secure, validate, and continuously monitor them**.
-
-* Scan early (**Trivy**)
-* Fix vulnerabilities
-* Deploy securely (Kubernetes hardening)
-* Validate continuously (**Snyk monitoring**)
-
-👉 This reflects **real-world DevSecOps practices used in production environments**
+* **0 reported security incidents**
+* **99.9% uptime**
+* **1,200+ attacks blocked**
+* Approximately **$11,000/year tooling savings**
+* PCI DSS and GDPR-aware security architecture
 
 ---
 
-## 🌱 Currently Focused On
+# 🤖 AWS Security Automation & CIS Audit Tool
 
-* Advanced **Kubernetes Security (CKA → CKS path)**
-* **Cloud Security Engineering (AWS / Azure)**
-* **DevSecOps & CI/CD Security Automation**
-* Detection engineering & monitoring systems
+### [AWS Security Automation](https://github.com/Lakewest1/AWS-Security-Automation)
 
----
+Python-based AWS security automation framework using **Boto3**.
 
-## 🤝 Open To
+### Capabilities
 
-* Cloud Security / DevSecOps roles (Remote/Global)
-* SOC / Security Engineering opportunities
-* Security architecture reviews & collaborations
-* Cloud Analyst / detection Engineering
+* IAM security assessment
+* S3 security checks
+* EC2 security checks
+* CloudTrail validation
+* KMS security checks
+* CIS benchmark-oriented assessments
+* Security posture reporting
+* Cloud security automation
 
----
-
-## 📫 Contact
-
-* 📧 Email: **[olamilake95@gmail.com](mailto:olamilake95@gmail.com)**
-* 🔗 LinkedIn: [https://www.linkedin.com/in/olalekan-musa-499b48280/](https://www.linkedin.com/in/olalekan-musa-499b48280/)
-* 🐙 GitHub: [https://github.com/Lakewest1](https://github.com/Lakewest1)
+Demonstrates practical experience with **Python-based cloud security automation and governance**.
 
 ---
 
-⚡ Fun fact: I enjoy deep technical research, football, and fixing critical vulnerabilities before they become incidents.
+# 🚨 Cross-Cloud SOC Auto-Remediation
+
+### [Cross-Cloud SOC Automation & Remediation](https://github.com/Lakewest1/Cross-Cloud-SOC-Automation-Remediation-v2)
+
+Built a cross-cloud security detection and response architecture integrating **Microsoft Sentinel and AWS serverless services**.
+
+### Architecture
+
+```text
+AWS CloudTrail
+      │
+      ▼
+Microsoft Sentinel
+      │
+      ▼
+Detection / KQL
+      │
+      ▼
+SOAR Workflow
+      │
+      ▼
+AWS Lambda
+      │
+      ▼
+Automated Response
+```
+
+### Capabilities
+
+* Microsoft Sentinel SIEM
+* KQL detection rules
+* MITRE ATT&CK mapping
+* AWS Lambda automation
+* Cross-cloud response
+* Security incident investigation
+* Automated containment
+* SOC workflow automation
+
+Demonstrates the combination of **detection engineering, cloud security and automated response**.
 
 ---
+
+# 🕵️ TorExfil SOC Investigation
+
+### [TorExfil SOC Investigation](https://github.com/Lakewest1/TorExfil-SOC-Investigation)
+
+End-to-end SOC investigation demonstrating threat detection, investigation and incident response.
+
+### Investigated
+
+* Tor-based traffic
+* Potential data exfiltration
+* DDoS indicators
+* Phishing artifacts
+* Suspicious infrastructure
+
+### Frameworks & Tools
+
+* Microsoft Sentinel
+* KQL
+* MITRE ATT&CK
+* NIST SP 800-61
+* VirusTotal
+* Shodan
+* IPinfo
+* ViewDNS
+* SecurityTrails
+* Censys
+
+Demonstrates practical **SOC investigation, threat intelligence and incident response** capabilities.
+
+---
+
+# 🔒 Rasoaf Travels & Tours — DevSecOps Security Implementation
+
+### [Rasoaf DevSecOps Security Implementation](https://github.com/Lakewest1/Rasoaf-Devsecops-Security-Implementation)
+
+Security implementation for a production web platform demonstrating the integration of security into the software development lifecycle.
+
+### DevSecOps Pipeline
+
+```text
+Developer Push
+      │
+      ▼
+GitHub Actions
+      │
+      ├── Build
+      ├── Automated Tests
+      ├── ESLint
+      ├── npm audit
+      ├── Gitleaks
+      ├── Semgrep SAST
+      ├── Security Headers
+      ├── OWASP ZAP
+      │
+      ▼
+ Security Gate
+      │
+   ┌──┴──┐
+   │     │
+ FAIL   PASS
+   │     │
+ STOP   Deploy
+          │
+          ▼
+       Monitor
+```
+
+### Security Controls
+
+* GitHub Actions CI/CD
+* SAST
+* DAST
+* Software Composition Analysis
+* Secret detection
+* Automated testing
+* Security headers
+* Cloudflare WAF
+* TLS / HSTS
+* OWASP ZAP
+* Semgrep
+* Gitleaks
+* npm audit
+* ESLint
+* Automated security gates
+
+This project demonstrates practical **DevSecOps implementation in a production web application**.
+
+---
+
+# 🧠 My Engineering Approach
+
+> **I don't just deploy applications. I secure, validate, detect and continuously improve them.**
+
+My security engineering approach follows:
+
+```text
+Identify
+   ↓
+Threat Model
+   ↓
+Secure Design
+   ↓
+Implement
+   ↓
+Scan
+   ↓
+Test
+   ↓
+Deploy
+   ↓
+Monitor
+   ↓
+Detect
+   ↓
+Respond
+   ↓
+Improve
+```
+
+I focus on building security into the system rather than treating security as a final-stage activity.
+
+---
+
+# 🧰 Core Security Skills
+
+### ☁️ Cloud Security
+
+* AWS
+* Azure
+* Cloudflare
+* IAM
+* KMS
+* CloudTrail
+* API Gateway
+* Lambda
+* S3
+* Microsoft Sentinel
+
+### 🔐 Application Security
+
+* Threat Modeling
+* STRIDE
+* OWASP
+* SAST
+* DAST
+* SCA
+* Secret Detection
+* Security Headers
+* TLS / HSTS
+* Secure SDLC
+
+### ☸️ Kubernetes Security
+
+* RBAC
+* Network Policies
+* SecurityContext
+* Container Hardening
+* Trivy
+* Snyk
+* Kubernetes Audit Logs
+
+### 🚨 Detection & Response
+
+* Microsoft Sentinel
+* KQL
+* MITRE ATT&CK
+* Detection Engineering
+* Incident Response
+* SOC Investigation
+* Security Automation
+* SOAR
+
+### ⚙️ DevSecOps
+
+* GitHub Actions
+* CI/CD Security
+* Semgrep
+* Gitleaks
+* npm audit
+* OWASP ZAP
+* Automated Security Gates
+* Vulnerability Management
+
+### 💻 Development
+
+* Python
+* TypeScript
+* JavaScript
+* Node.js
+* React
+* Express
+* PostgreSQL
+* Prisma
+
+---
+
+# 🌱 Currently Focused On
+
+* Advanced Kubernetes Security
+* Cloud Security Engineering
+* DevSecOps and CI/CD Security
+* Detection Engineering
+* Cloud Threat Detection
+* Security Automation
+* Multi-Cloud Security Architecture
+* Incident Response
+
+---
+
+# 🤝 Open To
+
+* Cloud Security Engineer roles
+* DevSecOps Engineer roles
+* Detection Engineer roles
+* SOC / Security Engineering roles
+* Cloud Security Architecture opportunities
+* Security automation projects
+* Cloud and application security collaborations
+
+---
+
+# 📫 Contact
+
+📧 **Email:** [olamilake95@gmail.com](mailto:olamilake95@gmail.com)
+
+🔗 **LinkedIn:**
+[https://www.linkedin.com/in/olalekan-musa-499b48280/](https://www.linkedin.com/in/olalekan-musa-499b48280/)
+
+🐙 **GitHub:**
+[https://github.com/Lakewest1](https://github.com/Lakewest1)
+
+🌐 **Portfolio:**
+[https://lakewest.netlify.app/](https://lakewest.netlify.app/)
+
+---
+
+# ⭐ Featured Repositories
+
+The projects I recommend reviewing first:
+
+1. 🧠 **[LOSAF — Multi-Cloud Detection Pipeline](https://github.com/Lakewest1/LOSAF-multi-cloud-detection-pipeline)**
+2. 🚨 **[Cross-Cloud SOC Automation & Remediation](https://github.com/Lakewest1/Cross-Cloud-SOC-Automation-Remediation-v2)**
+3. ☸️ **[Secure Kubernetes DevSecOps Deployment](https://github.com/Lakewest1/Secure-Kubernetes-Deployment)**
+4. 🔐 **[PCI-Compliant Cloud Security Architecture](https://github.com/Lakewest1/PCI-Compliant-Cloud-Security-Architecture-project)**
+5. 💳 **[Multi-Cloud Secure Donation Platform](https://github.com/Lakewest1/multi-cloud-secure-donation-platform)**
+6. 🔒 **[Rasoaf DevSecOps Security Implementation](https://github.com/Lakewest1/Rasoaf-Devsecops-Security-Implementation)**
+
+---
+
+## ⚡ Final Note
+
+I enjoy researching complex security problems, building practical security automation, investigating threats, and designing systems where **security is engineered into the architecture from the beginning**.
+
+> **Build it. Secure it. Detect it. Automate it.**
+
+````
