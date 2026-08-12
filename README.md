@@ -65,7 +65,7 @@ Respond
 
 # 🔥 Featured Security Projects
 
-## 🧠 LOSAF — Lakewest Open Security Automation Framework
+## 🧠 LOSAF - Lakewest Open Security Automation Framework
 
 ### [LOSAF Multi-Cloud Detection Pipeline](https://github.com/Lakewest1/LOSAF-multi-cloud-detection-pipeline)
 
@@ -384,7 +384,7 @@ Demonstrates practical **SOC investigation, threat intelligence, and incident re
 
 ---
 
-# 🔒 Rasoaf Travels & Tours — DevSecOps Security Implementation
+# 🔒 Rasoaf Travels & Tours - DevSecOps Security Implementation
 
 ### [Rasoaf DevSecOps Security Implementation](https://github.com/Lakewest1/Rasoaf-Devsecops-Security-Implementation)
 
