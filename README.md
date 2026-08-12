@@ -441,6 +441,96 @@ GitHub Actions
 This project demonstrates practical **DevSecOps implementation in a production web application**.
 
 ---
+---
+# 🏥 EVS Healthcare Secure Platform
+
+### [EVS Healthcare Secure Platform](https://github.com/Lakewest1/evs-healthcare-secure-platform)
+
+A production healthcare recruitment platform designed and secured using cloud-native security and defense-in-depth principles.
+
+The platform enables healthcare professionals to apply for opportunities, securely upload CVs, and communicate with recruiters while protecting application data through layered security controls.
+
+### Architecture
+
+```text
+Users
+  │
+  ▼
+Cloudflare Edge
+  │
+  ├── WAF
+  ├── DDoS Protection
+  ├── Bot Protection
+  ├── Rate Limiting
+  └── HTTPS / TLS
+  │
+  ▼
+Netlify
+  │
+  ├── React Application
+  └── Serverless Functions
+          │
+          ├── Input Validation
+          ├── Secret Management
+          │
+          ├───────────────┐
+          ▼               ▼
+     Cloudinary         EmailJS
+     CV Storage       Email Delivery
+Security Controls
+Cloudflare WAF
+DDoS Protection
+Bot Protection
+Rate Limiting
+HTTPS / TLS 1.2–1.3
+HSTS
+Content Security Policy (CSP)
+X-Frame-Options
+X-Content-Type-Options
+Permissions Policy
+Serverless security controls
+Environment-variable secret management
+Input validation
+Secure CV/file upload handling
+SPF, DKIM and DMARC
+Security Testing
+
+The production platform was validated using:
+
+OWASP ZAP - vulnerability assessment
+SSL Labs - TLS configuration testing
+Mozilla Observatory — security-header assessment
+SecurityHeaders.com — HTTP security-header validation
+Technology
+React
+Vite
+JavaScript
+Node.js
+Netlify Functions
+Cloudflare
+Cloudinary
+EmailJS
+Engineering Focus
+
+This project demonstrates practical experience in:
+
+Cloud Security
+Application Security
+Serverless Security
+Secure File Uploads
+Web Security
+Security Headers
+Edge Security
+Production Deployment
+Defense-in-Depth
+Security Testing
+
+📂 Repository:
+https://github.com/Lakewest1/evs-healthcare-secure-platform
+
+🌐 Live Platform:
+https://www.evshealthcare.co.uk
+---
 
 # 🧠 My Engineering Approach
 
