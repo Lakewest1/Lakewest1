@@ -3,7 +3,7 @@
 
 🔐 Cloud Security Engineer | DevSecOps Engineer | Detection Engineer | SOC / Security Engineer 
 
-I specialize in **AWS, Azure, Cloudflare, Kubernetes security, IAM, threat detection, security automation, and secure cloud-native application development**.
+I specialize in AWS, Azure, Cloudflare, Kubernetes security, IAM, threat detection, security automation, and secure cloud-native application development**.
 
 I build security into systems from design → development → CI/CD → deployment → detection → response, with a strong focus on practical security engineering and automation.
 
