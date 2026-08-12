@@ -1,7 +1,7 @@
 ````markdown
 # 👋 Musa Olalekan Ismail - Cloud Security & DevSecOps Engineer
 
-🔐 Cloud Security Engineer | DevSecOps Engineer | Detection Engineer | SOC / Security Engineer 
+### 🔐 **Cloud Security Engineer | DevSecOps Engineer | Detection Engineer | SOC / Security Engineer**
 
 I specialize in AWS, Azure, Cloudflare, Kubernetes security, IAM, threat detection, security automation, and secure cloud-native application development**.
 
