@@ -384,7 +384,7 @@ Demonstrates practical **SOC investigation, threat intelligence and incident res
 
 ---
 
-# 🔒 Rasoaf Travels & Tours — DevSecOps Security Implementation
+# 🔒 Rasoaf Travels & Tours - DevSecOps Security Implementation
 
 ### [Rasoaf DevSecOps Security Implementation](https://github.com/Lakewest1/Rasoaf-Devsecops-Security-Implementation)
 
@@ -593,7 +593,7 @@ I focus on building security into the system rather than treating security as a 
 
 The projects I recommend reviewing first:
 
-1. 🧠 **[LOSAF — Multi-Cloud Detection Pipeline](https://github.com/Lakewest1/LOSAF-multi-cloud-detection-pipeline)**
+1. 🧠 **[LOSAF - Multi-Cloud Detection Pipeline](https://github.com/Lakewest1/LOSAF-multi-cloud-detection-pipeline)**
 2. 🚨 **[Cross-Cloud SOC Automation & Remediation](https://github.com/Lakewest1/Cross-Cloud-SOC-Automation-Remediation-v2)**
 3. ☸️ **[Secure Kubernetes DevSecOps Deployment](https://github.com/Lakewest1/Secure-Kubernetes-Deployment)**
 4. 🔐 **[PCI-Compliant Cloud Security Architecture](https://github.com/Lakewest1/PCI-Compliant-Cloud-Security-Architecture-project)**
