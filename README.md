@@ -1,4 +1,4 @@
-### 👋 Musa Olalekan Ismail - Cloud Security | DevSecOps | Detection Engineering
+### 👋 Olalekan Ismail Musa - Cloud Security | DevSecOps | Detection Engineering
 
 # 🔐 Cloud Security Engineer | DevSecOps Engineer | Detection Engineer | SOC / Security Engineer
 
