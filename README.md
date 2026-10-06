@@ -918,7 +918,7 @@ I also build and teach **practical, hands-on cybersecurity training** focused on
 
 ### 🛡️ Sir Lakewest Cybersecurity Academy
 
-**[Sir Lakewest Cybersecurity Academy — Payhip](https://payhip.com/lakewestcybersecurity)**
+**[Sir Lakewest Cybersecurity Academy - Payhip](https://payhip.com/lakewestcybersecurity)**
 
 My independent cybersecurity education platform focused on helping aspiring security professionals develop practical skills through **investigation, hands-on labs, and real-world security scenarios**.
 
@@ -926,7 +926,7 @@ My independent cybersecurity education platform focused on helping aspiring secu
 
 #### 🚨 SOC Alert Investigation Lab
 
-**[SOC Alert Investigation Lab — Udemy](https://www.udemy.com/course/soc-alert-investigation-lab-real-world-workflow/?referralCode=2D68A05BC5A6928FBC87)**
+**[SOC Alert Investigation Lab - Udemy](https://www.udemy.com/course/soc-alert-investigation-lab-real-world-workflow/?referralCode=2D68A05BC5A6928FBC87)**
 
 A practical SOC investigation lab focused on the workflow analysts can use to investigate security alerts, analyze evidence, identify suspicious activity, and develop an incident assessment.
 
@@ -943,7 +943,7 @@ A practical SOC investigation lab focused on the workflow analysts can use to in
 
 #### 🕵️ Practical Network Forensics with Wireshark
 
-**[Practical Network Forensics with Wireshark — Udemy](https://www.udemy.com/course/practical-network-forensics-with-wireshark/?referralCode=41D95354312B9010BE37)**
+**[Practical Network Forensics with Wireshark - Udemy](https://www.udemy.com/course/practical-network-forensics-with-wireshark/?referralCode=41D95354312B9010BE37)**
 
 Hands-on network forensics training focused on analyzing network traffic and investigating suspicious activity using **Wireshark and PCAP analysis**.
 
