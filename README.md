@@ -1013,7 +1013,7 @@ https://github.com/Lakewest1
 
 The projects I recommend reviewing first:
 
-1. 🧠 **[LOSAF — Multi-Cloud Detection Pipeline](https://github.com/Lakewest1/LOSAF-multi-cloud-detection-pipeline)**
+1. 🧠 **[LOSAF - Multi-Cloud Detection Pipeline](https://github.com/Lakewest1/LOSAF-multi-cloud-detection-pipeline)**
 2. 🚨 **[Cross-Cloud SOC Automation & Remediation](https://github.com/Lakewest1/Cross-Cloud-SOC-Automation-Remediation-v2)**
 3. ☸️ **[Secure Kubernetes DevSecOps Deployment](https://github.com/Lakewest1/Secure-Kubernetes-Deployment)**
 4. 🔐 **[PCI-Aware Cloud Security Architecture](https://github.com/Lakewest1/PCI-Compliant-Cloud-Security-Architecture-project)**
