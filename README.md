@@ -232,7 +232,7 @@ https://youtu.be/jT9a2qFGDHg
 
 ### [Secure Kubernetes Deployment](https://github.com/Lakewest1/Secure-Kubernetes-Deployment)
 
-Built and deployed a hardened containerized application on **Azure Kubernetes Service (AKS)** with security integrated across the DevSecOps lifecycle — from source and container scanning to cloud authentication, registry security, Kubernetes hardening, network controls, and admission policy enforcement.
+Built and deployed a hardened containerized application on **Azure Kubernetes Service (AKS)** with security integrated across the DevSecOps lifecycle - from source and container scanning to cloud authentication, registry security, Kubernetes hardening, network controls, and admission policy enforcement.
 
 ### Security Controls
 
@@ -944,10 +944,6 @@ I am particularly interested in environments where I can **build security system
 🐙 **GitHub:**
 
 https://github.com/Lakewest1
-
-🌐 **Portfolio:**
-
-https://lakewest.netlify.app/
 
 ---
 
