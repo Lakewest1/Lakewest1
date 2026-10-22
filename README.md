@@ -2,18 +2,17 @@
 
 # Olalekan Ismail Musa
 
-### Cloud Security Engineer · Detection Engineering · DevSecOps
+### Cloud Security Engineer | Detection & Security Automation (AWS · Azure)
 
-I build and secure web platforms, integrate security controls into applications and cloud infrastructure, and maintain live production services. I also build detection and automation projects across AWS and Azure, and teach practical cybersecurity through Lakewest Cybersecurity Academy.
+I secure cloud-connected applications and infrastructure, investigate security risks, and build automation to improve detection and response. I maintain live production platforms, build AWS and Azure security projects, and teach practical cybersecurity through Lakewest Cybersecurity Academy.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-lakewest.netlify.app-0A66C2?style=for-the-badge&logo=netlify&logoColor=white)](https://lakewest.netlify.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Olalekan%20Musa-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/olalekan-musa-499b48280/)
 [![Email](https://img.shields.io/badge/Email-olamilake95@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:olamilake95@gmail.com)
 
 </div>
 
 > [!NOTE]
-> **Open to:** cloud security and detection engineering roles, security automation projects, and freelance engagements.
+> **Open to:** Cloud Security Engineer and Cloud Security Analyst roles, cloud detection engineering roles, security automation projects, and freelance engagements.
 
 ---
 
@@ -78,8 +77,8 @@ Investigation of suspicious network activity and potential data exfiltration usi
 
 | Project | What it covers |
 |:--|:--|
-| **[Secure Kubernetes Deployment](https://github.com/Lakewest1/Secure-Kubernetes-Deployment)** | Non-root containers, RBAC, network policies, OPA Gatekeeper admission control, Trivy and Gitleaks scanning, CI/CD validation. The repo documents the environment and what was tested. |
 | **[AWS Security Automation](https://github.com/Lakewest1/AWS-Security-Automation)** | Python/Boto3 checks for insecure IAM, S3, EC2, KMS, and CloudTrail configurations. |
+| **[Secure Kubernetes Deployment](https://github.com/Lakewest1/Secure-Kubernetes-Deployment)** | Non-root containers, RBAC, network policies, OPA Gatekeeper admission control, Trivy and Gitleaks scanning, CI/CD validation. The repo documents the environment and what was tested. |
 | **[PCI-Aware Cloud Security Architecture](https://github.com/Lakewest1/PCI-Compliant-Cloud-Security-Architecture-project)** | Least-privilege IAM, encryption, key management, STRIDE threat modelling, Zero Trust. An architecture project, not a PCI DSS certification or audit. |
 
 ---
