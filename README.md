@@ -6,7 +6,6 @@
 
 I secure cloud-connected applications, investigate suspicious activity, and build security automation across cloud and application environments. I maintain live production platforms, build detection and investigation projects, and teach hands-on cybersecurity.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-lakewest.netlify.app-0A66C2?style=for-the-badge&logo=netlify&logoColor=white)](https://lakewest.netlify.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Olalekan%20Musa-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/olalekan-musa-499b48280/)
 [![Email](https://img.shields.io/badge/Email-olamilake95@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:olamilake95@gmail.com)
 
