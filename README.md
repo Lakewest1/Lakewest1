@@ -71,9 +71,22 @@ SOC Tier 3-inspired orchestration playbooks, iterated across many versions to ex
 - Integrations with Azure Key Vault, Service Bus, and ServiceNow
 - Approval gates before sensitive identity-containment actions
 
-### AI Security Assistant
+### 🤖 [HayHigh: AI Security Assistant](https://hayhigh.netlify.app/)
 
-An AI-assisted investigation tool for URLs and IP addresses: an agent loop with tool calls to VirusTotal and AbuseIPDB that returns structured, evidence-backed assessments for analyst review.
+**Status:** 🚧 In progress · [Live development site](https://hayhigh.netlify.app/)
+
+An AI-assisted investigation platform that brings multi-model orchestration, threat intelligence, and controlled tool execution into one workflow for URL and IP investigations. Instead of relying on a single model or an isolated reputation lookup, it coordinates five AI models and grounds their analysis in external evidence, while keeping control over which tools the AI can invoke.
+
+- **Multi-model orchestration:** coordinates five AI models within the investigation workflow to explore how different models contribute to security analysis
+- **Threat-intelligence integration:** VirusTotal, AbuseIPDB, Censys, ThreatFox, SecurityTrails, IPinfo, ViewDNS, Shodan, and Mozilla Observatory, added incrementally
+- **Controlled tool execution:** a tool registry and tool-use policy define the available tools and govern how the agent invokes them, rather than allowing unrestricted execution
+- **Evidence-led assessments:** tool calls gather observable intelligence, so findings rest on evidence rather than model assertions alone
+- **Structured output:** results are organised so findings can be reviewed alongside their supporting evidence
+- **Access control:** authentication, authorisation, and data-protection considerations built into the platform
+
+`JavaScript` `Node.js` `REST APIs` `Tool registry` `Policy enforcement` `Threat intelligence`
+
+**Scope:** under active development; integrations are subject to ongoing implementation and validation. It is not a fully autonomous SOC, a production-validated detection platform, or an automated remediation system.
 
 ---
 
@@ -148,6 +161,6 @@ I run **[Lakewest Cybersecurity Academy](https://payhip.com/lakewestcybersecurit
 
 <div align="center">
 
-**Let's connect** · [Portfolio](https://lakewest.netlify.app) · [GitHub](https://github.com/Lakewest1) · [LinkedIn](https://www.linkedin.com/in/olalekan-musa-499b48280/) · [Email](mailto:olamilake95@gmail.com)
+**Let's connect** · [GitHub](https://github.com/Lakewest1) · [LinkedIn](https://www.linkedin.com/in/olalekan-musa-499b48280/) · [Email](mailto:olamilake95@gmail.com)
 
 </div>
